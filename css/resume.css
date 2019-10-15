@@ -5,7 +5,7 @@
  */
 
 :root {
-  --colorA:#11466D; /*bside bar and featured text*/
+  --colorA:#11466D; /*beside bar and featured text*/
   --colorB:#9CB2C3;
   --colorC:#FCC22C;
   --colorD:#FCE19B; /*navigation links*/
@@ -16,6 +16,7 @@ body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
   color: #868e96;
+  
 }
 
 @media (min-width: 992px) {
@@ -156,11 +157,19 @@ section.resume-section {
 section.resume-section .resume-item .resume-date {
   min-width: 18rem;
 }
-.resume-section img {
+#experience img {
     width: 10rem;
     height: 10rem;
     border: 0.125rem solid var(--colorE);
-    margin-left:
+    margin-left: 15rem;
+}
+
+#education img{
+  width: 10rem;
+    height: 10rem;
+    border: 0.125rem solid var(--colorE);
+    margin-left: 15rem;
+}
 
 @media (min-width: 768px) {
   section.resume-section {
@@ -193,3 +202,28 @@ a {
 a:hover, a:focus, a:active {
   color: var(--colorC);
 }
+
+/* .background-photo{
+    background-image: url=("https://i.ibb.co/X8Vg2zc/roebling-Bridge.png");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+
+} */
+
+html { 
+  background: url(https://i.ibb.co/X8Vg2zc/roebling-Bridge.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+
+.card{
+  position: relative;
+  padding: 4px;
+}
+
+ .card .githubLink{
+  margin-top: 5px;
+  position: absolute;
+  bottom: 0;
+  
+}
+
