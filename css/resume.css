@@ -205,7 +205,7 @@ a:hover, a:focus, a:active {
 
 
 html { 
-  background: url(https://i.ibb.co/X8Vg2zc/roebling-Bridge.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+  /*background: url(https://i.ibb.co/X8Vg2zc/roebling-Bridge.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }*/
 
 .card{
   position: relative;
