@@ -206,7 +206,7 @@ a:hover, a:focus, a:active {
 
 html { 
   /*background: url(https://i.ibb.co/X8Vg2zc/roebling-Bridge.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }*/
-
+}
 .card{
   position: relative;
   padding: 4px;
@@ -222,4 +222,15 @@ html {
 .card-subtitle{
   margin-bottom: 5px;
   margin-top: 5px
+}
+
+iframe{
+  overflow-x:scroll;
+  overflow-y:scroll;
+}
+
+#graph{
+  max-width: 100%;
+  overflow-x:scroll;
+  overflow-y:scroll;
 }
