@@ -164,6 +164,10 @@ section.resume-section .resume-item .resume-date {
     margin-left: 15rem;
 }
 
+#experience #kable-img {
+  height: 160px;
+}
+
 #education img{
   width: 10rem;
     height: 10rem;
