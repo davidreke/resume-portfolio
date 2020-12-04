@@ -214,6 +214,7 @@ html {
 .card{
   position: relative;
   padding: 4px;
+  border-width: 3px;
 }
 
  .card .githubLink{
